@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tour Dates - Dywayne Mc">
+        <meta name="author" content="Dywayne Mc">
+        <title>Tour | Dywayne Mc</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Include Font Awesome for Icons (Optional) -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: 'Helvetica', Arial, sans-serif;
+                color: #333;
+                background-color: #f4f4f4;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+            }
+    
+            header {
+                width: 100%;
+                background: #34495e;
+                padding: 20px;
+                text-align: center;
+                color: white;
+            }
+    
+            header h1 {
+                font-size: 2.5rem;
+                letter-spacing: 2px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+    
+            .tour-section {
+                flex-grow: 1;
+                padding: 50px 20px;
+                background-color: #fff;
+            }
+    
+            .tour-section h2 {
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+                text-align: center;
+                color: #2c3            display: flex;
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+            }
+    
+            .tour-date {
+                background-color: #ecf0f1;
+                padding: 20px;
+                width: 80%;
+                max-width: 800px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease;
+            }
+    
+            .tour-date:hover {
+                transform: scale(1.05);
+            }
+    
+            .tour-date h3 {
+                font-size: 2rem;
+                margin-bottom: 10px;
+                color: #2c3e50;
+            }
+    
+            .tour-date p {
+                font-size: 1.2rem;
+                color: #34495e;
+                margin-bottom: 10px;
+            }
+    
+            .tour-date .ticket-info {
+                font-size: 1rem;
+                color: #f39c12;
+                font-weight: bold;
+            }
+    
+            .ticket-btn {
+                padding: 10px 20px;
+                background-color: #f39c12;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                font-size: 1.1rem;
+                margin-top: 10px;
+                display: inline-block;
+            }
+    
+            .ticket-btn:hover {
+                background-color: #e67e22;
+            }
+    
+            footer {
+                background-color: #34495e;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                font-size: 1rem;
+            }
+    
+            footer p {
+                margin: 0;
+            }
+    
+            @media (max-width: 768px) {
+                .tour-date h3 {
+                    font-size: 1.5rem;
+                }
+    
+                .tour-date p {
+                    font-size: 1rem;
+                }
+    
+                .ticket-btn {
+                    font-size: 1rem;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+        <header>
+            <h1>Dywayne Mc Tour</h1>
+        </header>
+    
+        <section class="tour-section">
+            <h2>Upcoming Tour Dates</h2>
+    
+            <div class="tour-dates">
+                <!-- Tour Date 1 -->
+                <div class="tour-date">
+                    <h3>Live at The Arena</h3>
+                    <p><strong>Date:</strong> January 20, 2025</p>
+                    <p><strong>Location:</strong> <p class="ticket-info">Tickets Available Now!</p>
+                    <a href="https://www.example.com/tickets" class="ticket-btn" target="_blank">Buy Tickets</a>
+                </div>
+    
+                <!-- Tour Date 2 -->
+                <div class="tour-date">
+                    <h3>Summer Music Festival</h3>
+                    <p><strong>Date:</strong> February 15, 2025</p>
+                    <p><strong>Location:</strong> The Festival Grounds, Los Angeles, CA</p>
+                    <p class="ticket-info">Get Your Tickets Early!</p>
+                    <a href="https://www.example.com/tickets" class="ticket-btn" target="_blank">Buy Tickets</a>
+                </div>
+    
+                <!-- Tour Date 3 -->
+                <div class="tour-date">
+                    <h3>Rock 'n' Roll Arena Tour</h3>
+                    <p><strong>Date:</strong> March 10, 2025</p>
+                    <p><strong>Location:</strong> Madison Square Garden, New York, NY</p>
+                    <p class="ticket-info">Limited Tickets Remaining!</p>
+                    <a href="https://www.example.com/tickets" class="ticket-btn" target="_blank">Buy Tickets</a>
+                </div>
+    
+                <!-- Tour Date 4 -->
+                <div class="tour-date">
+                    <h3>Winter Concert Series</h3>
+                    <p><strong>Date:</strong> April 5, 2025</p>
+                    <p><strong>Location:</strong> The Royal Theatre, Chicago, IL</p>
+                    <p class="ticket-info">Tickets Available Soon!</p>
+                    <a href="https://www.example.com/tickets" class="ticket-btn" target="_blank">Buy Tickets</a>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 Dywayne Mc. All Rights Reserved.</p>
+        </footer>
+    
+    </body>
+    
+    </html>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

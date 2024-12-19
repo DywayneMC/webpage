@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Music | Dywayne Mc</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background: #21374d;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .music-banner {
+            background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .main-section {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: white;
+            margin-top: -70px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-section h3 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+
+        .main-section p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .music-tracks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .music-track {
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .music-track img {
+            width: 100%;
+            border-radius: 8px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .music-track h4 {
+            margin-top: 15px;
+            font-size: 1.8rem;
+            color: #2c3e50;
+        }
+
+        .music-track p {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+
+        .music-track:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            background-color: #102336;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .footer-icons {
+            margin-top: 20px;
+        }
+
+        .footer-icons a {
+            margin: 0 15px;
+            font-size: 2rem;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .footer-icons a:hover {
+            color: #f39c12;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dywayne Mc's Music</h1>
+    </header>
+
+    <!-- Music Banner -->
+    <div class="music-banner">
+        <h2>Experience the Sound of Dywayne Mc</h2>
+    </div>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <h3>Our Latest Tracks</h3>
+        <p>Discover the latest tracks and music videos from Dywayne Mc. Immerse yourself in the world of music, rhythm, and creativity.</p>
+
+        <!-- Music Tracks Grid -->
+        <div class="music-tracks">
+            <!-- Music Track 1 -->
+            <div class="music-track">
+                <img src="https://www.musicinafrica.net/sites/default/files/styles/article_slider_large/public/images/article/202311/rema-613.jpg?itok=571JC56v" alt="Track 1">
+                <h4>OZEBA</h4>
+                <p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7ySC0IjVS1PMEdsZOvsUK2?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+                <a href="#" class="btn btn-primary">Listen Now</a>
+            </div>
+
+            <!-- Music Track 2 -->
+            <div class="music-track">
+                <img src="https://i.namu.wiki/i/MmA92FW61RL9iXEpa3LCHpOwPMjink3qvFtcatZbIcKA9PVqqWR0A0GXga4Y0afDcwI1llUEp_ISyja7HvejPA.webp" alt="Track 2">
+                <h4>BANG4BANG</h4>
+                <p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7iabz12vAuVQYyekFIWJxD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+                <a href="#" class="btn btn-primary">Listen Now</a>
+            </div>
+
+            <!-- Music Track 3 -->
+            <div class="music-track">
+                <img src="https://www.telegraph.co.uk/content/dam/music/2019/05/03/TELEMMGLPICT000194553220_trans_NvBQzQNjv4BqpVFtQMSn7ZYEgFkbAp9DEg4eKJZAPd6r6jcTrhbcVw0.jpeg?imwidth=680" alt="Track 3">
+                <h4>JKYL + HYDE</h4>
+                <p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3m9dOrYUPKcKFt9P1PReHt?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+                <a href="#" class="btn btn-primary">Listen Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Dywayne Mc. All Rights Reserved.</p>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/dywaynemc" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@dywaynemc" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
