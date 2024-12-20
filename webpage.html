@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome | Dywayne Mc</title>
+    <title>dywayne band</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
@@ -18,10 +18,6 @@
             font-family: 'Helvetica', Arial, sans-serif;
             color: #333;
             background-color: #f4f4f4;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
         }
 
         header {
@@ -39,13 +35,31 @@
             text-transform: uppercase;
         }
 
+        nav {
+            background-color: #2c3e50;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 15px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #f39c12 !important;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
         .main-section {
-            flex-grow: 1;
             text-align: center;
             padding: 50px 20px;
             background-color: white;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+            margin: 20px;
         }
 
         .main-section h2 {
@@ -67,8 +81,10 @@
         .buttons a {
             text-decoration: none;
             padding: 15px 30px;
-            margin: 10.2rem;
+            margin: 10px;
             border-radius: 5px;
+            background-color: #21374d;
+            color: white;
             transition: background-color 0.3s ease;
         }
 
@@ -123,22 +139,46 @@
 <body>
 
     <header>
-        <h1>DYWAYNE MC</h1>
+        <h1>Amazing Homepage</h1>
     </header>
 
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Brand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tour">Tour</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <section class="main-section">
-        <h2>About Dywayne Mc</h2>
-        <p>Dywayne Mc is a creative visionary and influencer passionate about connecting with people, inspiring others, and shaping the entertainment and music world.</p>
+        <h2>Welcome to dywayne mc Homepage</h2>
+        <p>Discover amazing content and explore new horizons with us!</p>
 
         <div class="buttons">
-            <a href="contact.html">Contact</a>
-            <a href="about.html">about</a>
-            <a href="music.html">music</a>
-            <a href="tour.html">tour</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#music">Music</a>
+            <a href="#tour">Tour</a>
         </div>
 
         <div class="music-stars">
-            <!-- Replace these links with actual images of music stars -->
             <img src="https://cdn1.img.sputniknews.africa/img/07e7/0c/1b/1064337366_525:0:2463:1938_1920x0_80_0_0_af72a59487f43edda8cfb77b364b420f.jpg" alt="Music Star 1">
             <img src="https://static.pollstar.com/wp-content/uploads/2024/02/GettyImages-1968545451-1024x683.jpg" alt="Music Star 2">
             <img src="https://cdn-p.smehost.net/sites/8e1f40b762984a27a20f577d99b7ac97/wp-content/uploads/2023/10/Unknown-3.jpeg" alt="Music Star 3">
@@ -146,10 +186,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Dywayne Mc. All Rights Reserved.</p>
+        <p>&copy; 2024 Amazing Homepage. All Rights Reserved.</p>
         <div class="footer-icons">
-            <a href="https://www.instagram.com/dywaynemc" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@dywaynemc" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
         </div>
     </footer>
 
@@ -157,6 +197,7 @@
 </body>
 
 </html>
+
                                
 
 
