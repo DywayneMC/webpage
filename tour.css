@@ -1,0 +1,128 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background: #21374d;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tour-section {
+            flex-grow: 1;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .tour-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .tour-dates {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .tour-date {
+            background-color: #ecf0f1;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .tour-date:hover {
+            transform: scale(1.05);
+        }
+
+        .tour-date h3 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .tour-date p {
+            font-size: 1.2rem;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        .tour-date .ticket-info {
+            font-size: 1rem;
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        .ticket-btn {
+            padding: 10px 20px;
+            background-color: #f39c12;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .ticket-btn:hover {
+            background-color: #e67e22;
+        }
+
+        footer {
+            background-color: #102336;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .tour-date h3 {
+                font-size: 1.5rem;
+            }
+
+            .tour-date p {
+                font-size: 1rem;
+            }
+
+            .ticket-btn {
+                font-size: 1rem;
+            }
+        }
+    
